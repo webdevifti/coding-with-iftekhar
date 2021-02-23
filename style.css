@@ -1,0 +1,158 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f9f9f9; 
+}
+/*=========Globals==========*/
+a{
+	color: #17AD64;
+}
+a:hover{
+	text-decoration: none;
+	color: green;
+}
+p{}
+h1,h2,h3,h4,h5,h6{}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+img{
+	height: auto;
+}
+header{}
+nav{}
+main{
+	margin-top: 80px;
+}
+article{
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+aside{
+	margin-top: 80px;
+}
+footer{}
+
+/*==========Main Style=========*/
+.navbar-brand .c,
+.navbar-brand .i{
+	color: green;
+	font-weight: bold;
+}
+.navbar-brand .w{
+	color: red;
+	padding: 8px 3px;
+	border: 1px solid red;
+	border-radius: 50%;
+}
+.navbarCustomCSS{
+	background-color: #fff;
+	border: none;
+	border-radius: 0;
+
+}
+.navbarCustomCSS a{
+	color: #000;
+}
+.navbarCustomCSS li.active{
+	font-weight: bold;
+}
+.CustomCSS{
+	border: none;
+}
+.CustomCSS .icon-bar{
+	background-color: #000;
+}
+.search_widget{
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.widget{
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.widget_title{
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+}
+
+.widget ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.widget ul li{}
+.widget ul li a{
+	padding: 10px;
+	display: block;
+	color: #000;
+	border-bottom: 1px solid #eee;
+}
+.widget ul li a:hover{
+	color: #17AD64;
+	text-decoration: none;
+}
+.post header,
+.post .post-excerpt{
+	padding: 10px;
+}
+.post-details i{
+	margin-left: 15px;
+	color: #17AD64;
+}
+.post-details i:first-child{
+	margin-left: 0;
+}
+.post-details a{
+	margin: 0 5px;
+}
+/* ========== Single Post Page style =====*/
+#content{
+	margin-top: 80px;
+}
+/*============= Comment Style==========*/
+#comments{
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+#comments ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#comments ol li{
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 10px 20px;
+    margin: 10px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px rgba(0, 0, 0, 0.03);
+}
+#comments ol li ol.children{
+    list-style: none;
+    padding: 0;
+    font-size: 0.96em;
+}
+#leave-comment{
+    margin: 40px 0 0;
+    padding: 20px 0 0;
+    border-top: 1px solid #eee;
+}
+/*====== Contact Page style ========*/
+
+.contact-main-content{
+	background-color: #fff;
+	padding: 10px;
+}
